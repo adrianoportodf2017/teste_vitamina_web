@@ -1,0 +1,202 @@
+@font-face {
+    font-family: 'AndreaIIScriptUpright';
+    src: url('../fonts/AndreaIIScriptUpright.ttf') format('truetype');
+    /* Substitua o caminho pelo local onde você colocou o arquivo .ttf */
+
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('woff2'),
+}
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('../fonts/Gill Sans.otf') format('truetype');
+    /* Substitua o caminho pelo local onde você colocou o arquivo .ttf */
+    /* Outros formatos de fonte podem ser adicionados aqui, como .woff ou .woff2 */
+}
+
+.body {
+    background-color: light;
+}
+
+.menu {
+    background-color: #041B3A !important;
+    align-items: right;
+    align-content: right;
+}
+
+.menu-itens {
+    align-items: right;
+    align-content: right;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.logo {
+    align-items: center;
+    width: 110px;
+    height: 54.61px;
+}
+
+.menu-link {
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.contact-button {
+    height: 35px;
+    top: 17px;
+    left: 1175px;
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+    gap: 10px;
+    background-color: #FFFFFF;
+    color: #041B3A
+}
+
+.menu-collapse {
+    background-color: #041B3A;
+}
+
+.titulo-home {
+    /* HISTÓRIA DA DESJOYAUX, */
+
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 50px;
+    /* identical to box height */
+    text-align: center;
+    text-transform: uppercase;
+    color: #041B3A;
+    line-height: 60px;
+    /* Inside auto layout */
+}
+
+.subtitulo-home {
+    /* Piscinas para família desde 1966 */
+    font-family: 'AndreaIIScriptUpright';
+    font-size: 27px;
+    /* identical to box height, or 93% */
+    color: #041B3A;
+    /* Inside auto layout */
+    text-align: center;
+}
+
+.text-section-1 {
+    /* Em 1966, na França, Jean Desjoyaux construiu sua primeira piscina com a ideia de que a sua família pudesse aproveitar  momentos de alegria na própria casa. É com essa visão que a Desjoyaux começou a desenvolver a sua tecnologia própria, se tornando  sinônimo de qualidade, tecnologia e tranquilidade com a invenção de conceitos exclusivos que revolucionaram o mundo da piscina */
+    /* Texto - Corrido */
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* or 125% */
+    text-align: center;
+    /* Cinza */
+    color: #5F5F5F;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* medium and up screens */
+@media (min-width: 768px) {
+
+    .carousel-inner .carousel-item-end.active,
+    .carousel-inner .carousel-item-next {
+        transform: translateX(25%);
+    }
+
+    .carousel-inner .carousel-item-start.active,
+    .carousel-inner .carousel-item-prev {
+        transform: translateX(-25%);
+    }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start {
+    transform: translateX(0);
+}
+
+.carousel-inner {
+    width: 100%;
+    /* Textos */
+
+
+}
+
+.time-linha {
+    color: #005A9B;
+    margin-bottom: -75px;
+    border-bottom: #005A9B solid 2px;
+    height: 2px;
+
+}
+
+.time-linha-text {
+    /* 1978 */
+    font-family: 'AndreaIIScriptUpright' !important;
+    font-size: 30px;
+    /* Cinza */
+    color: #5F5F5F;
+    background-color: #FFFFFF;
+    width: 180px;
+
+}
+
+.title-slide-home {
+    /* Invenção do conceito da cofragem ativa */
+    font-family: 'AndreaIIScriptUpright';
+    font-size: 27px;
+    /* Azul - Escuro */
+    color: #041B3A;
+}
+
+.subtitle-slide-home {
+    /* Conceito exclusivo mundialmente patenteado */
+
+
+    /* Texto - Corrido */
+    font-family: 'Gill Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* or 125% */
+
+    /* Cinza */
+    color: #5F5F5F;
+
+
+}
+
+
+.title-2 {
+    /* Invenção do conceito da cofragem ativa */
+    font-family: 'AndreaIIScriptUpright';
+    font-size: 30px;
+    /* Azul - Escuro */
+    color: #85680D;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
